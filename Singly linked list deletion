@@ -1,0 +1,30 @@
+#include <stdio.h>
+struct node{
+    
+    char data;
+    struct node *next;
+};
+int  main()
+{
+    struct node * head;
+    struct node * one= NULL;
+    struct node * two = NULL;
+    //struct node * newnode= NULL;
+    
+    one= (struct node *) malloc (sizeof(struct node));
+    two = ( struct node *) malloc (sizeof(struct node));
+   // newnode = (struct node *) malloc ( sizeof (struct node));
+    
+    head = one;
+    one - > data = 5;
+    two -> data = 6;
+   // newnode - > data = 7;
+    
+    
+    one - > next = two;
+    // newnode;
+    // newnode - > next = two;
+    two - > next = NULL;
+    
+} 
+
