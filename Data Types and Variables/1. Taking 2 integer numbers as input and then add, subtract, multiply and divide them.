@@ -11,7 +11,7 @@ int main ()
     if(num2==0||(num1==0&&num2==0))
         printf("Devision: Undefined\n");
     else
-        printf("Division: %d\n", num1/num2);
+        printf("Devision: %d\n", (float)num1/num2);
     
     return 0;
 
